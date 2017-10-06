@@ -6,7 +6,7 @@ node_js:
 
 env:
   global:
-    # Encrypted: NPM_AUTH_TOKEM=<NPM_AUTH_TOKEM>
+    # Encrypted: NPM_AUTH_TOKEN=<NPM_AUTH_TOKEN>
     - secure: "OygmYe2WTQIi38OWGyZV0lhljlQ5xqLACBn65/bpKrOKhr+g5cUzJS31UvkoqlaqacTjuyTJnWYGLVXTp5hg1r8EYJFOHqz1Vm0OySkMTmiEeuke9BC24YmQ4oPuwNNszX5as24ZiKZr47cGohboQCpsI3CHspjpbX09BYpvRIjpusEIE8djJGpBuB4q40Uprqzo/GUXHZEV5lbI8JqoNZQvcofLVJ8M+dI2bM2RmLAlE++IX+qoIqtEF52mwROxUFxxQpEvzPUwPhLTFWfSk6lFsgK37XdXZ7x9Pe6UdUFzEFDFp5iIQtvxxPXXsKO4qB/LL5mYC0l6VgKRqtYtcLr2sFBwxjQfmSZZHEhSZcd9QT0HwPNTPidyF1SgsQNLIChe0+1fuRBTwhG5LFy0kkUNXU/Ovh8Pe6Igq4U0jppdfk6uxlDuqdAgDhacZsejpmqkS1J+8aUPgn/ZdAi2t37HOXiPayfU/OfY6GBkkgooBI3DWiOQuuILzWF3hNlPPn6ym9tTZWUsihYrl0l62llkdCsiNY5vN+sl3FWF5BnQOFJoPKT8t4c155F9+tIN1CPK0YLWn/vhhp8X5TRlUyzXmAjjcTEqx0E2+t06EHHB/VMe4uc7hTkaOXLSH31y78XcXdmPuMrMOGMwgZmFsbK/ykamqcaSAUQVS14VAmg="
 
 install:
@@ -15,7 +15,7 @@ install:
 
 script:
   - gulp package
-  - echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEM" > ~/.npmrc
+  - echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > ~/.npmrc
   - ./deploy.sh
 
 after_script:
