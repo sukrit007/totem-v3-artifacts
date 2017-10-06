@@ -14,7 +14,7 @@ install:
   - npm install || (sleep 10s && npm install)
 
 script:
-  - gulp travis
+  - gulp package
   - echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEM" > ~/.npmrc
   - ./deploy.sh
 
