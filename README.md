@@ -1,4 +1,4 @@
-# totem-v3-artifacts
+# totem-v3-artifacts [![Build Status](https://travis-ci.org/totem/totem-v3-artifacts.svg?branch=develop)](https://travis-ci.org/totem/totem-v3-artifacts)
 Totem V3 Artifacts used by totem CLI or any other tool that wants all the artifacts for configuring
 totem-v3.
 
