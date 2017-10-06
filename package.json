@@ -1,0 +1,35 @@
+{
+  "name": "totem-v3",
+  "version": "1.0.1",
+  "description": "Totem V3 Artifacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totem/totem-v3.git"
+  },
+  "files": [
+    "templates"
+  ],
+  "keywords": [
+    "totem",
+    "v3",
+    "totem-v3",
+    "cloudformation",
+    "artifacts",
+    "templates"
+  ],
+  "author": "Sukrit Khera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totem/totem-v3/issues"
+  },
+  "homepage": "https://github.com/totem/totem-v3#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2"
+  }
+}

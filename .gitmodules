@@ -1,0 +1,8 @@
+[submodule "totem-v3-orchestrator"]
+	path = modules/totem-v3-orchestrator
+	url = https://github.com/totem/totem-v3-orchestrator.git
+	branch = feature_git-workflow
+[submodule "totem-v3"]
+	path = modules/totem-v3
+	url = https://github.com/totem/totem-v3.git
+	branch = feature_git-setup
