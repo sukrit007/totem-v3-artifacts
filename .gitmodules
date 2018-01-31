@@ -6,3 +6,6 @@
 	path = modules/totem-v3
 	url = https://github.com/totem/totem-v3.git
 	branch = develop
+[submodule "modules/totem-v3-config-service"]
+	path = modules/totem-v3-config-service
+	url = https://github.com/totem/totem-v3-config-service.git
